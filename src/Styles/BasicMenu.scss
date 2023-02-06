@@ -1,0 +1,19 @@
+@media only screen and (min-width: 0) {
+ .Hamb-Menu{
+   #basic-button {
+    color: black;
+    font-weight: bold;
+   }
+  }
+ .Nav-Tags {
+  text-decoration: none;
+  color: black;
+  padding-left: 15px;
+ }
+}
+
+@media only screen and (min-width: 768px) {
+  .Hamb-Menu {
+    display: none;
+  }
+}

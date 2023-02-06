@@ -1,0 +1,28 @@
+@media only screen and (min-width: 0) {
+    .Header-Nav {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid red;
+        h5 {
+            border: 1px solid black;
+        }
+        .Pc-Nav {
+            display: none;
+        }
+    
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .Header-Nav {
+        .Pc-Nav {
+            display: block;
+        }
+    }
+}
+
+
+
